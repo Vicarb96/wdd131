@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(52, 123, 170);
+    --primary-color: #2a6a96;
     --secondary-color: #171927;
     --accent-color: #62b6cd;
     --light-bg: #ffffff;
@@ -45,6 +45,7 @@ nav a {
 
 a, button {
     display: inline-block;
+    box-sizing: border-box;
     min-height: 48px;
     min-width: 48px;
     padding: 0.75rem;
@@ -52,7 +53,7 @@ a, button {
 
 nav a:hover {
     background-color: var(--accent-color);
-    color: var(--light-bg);
+    color: var(--secondary-color);
 }
 
 main {
@@ -136,6 +137,6 @@ footer p {
 }
 
 #lastModified {
-    color: var(--secondary-color);
+    color: var(--light-bg);
     font-size: 1rem;
 }
