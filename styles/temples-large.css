@@ -1,0 +1,28 @@
+@media (min-width: 650px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: static;
+        width: auto;
+        background: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        gap: 1.5rem;
+        list-style: none;
+        display: flex;
+    }
+
+    .navigation li a {
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+
+    .picture-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
