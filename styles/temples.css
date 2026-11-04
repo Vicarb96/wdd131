@@ -49,6 +49,7 @@ nav {
     width: 100%;
     background-color: var(--secondary-color);
     display: none;
+    flex-direction: column;
 }
 
 nav.open {
