@@ -120,16 +120,18 @@ footer p {
 
     .content-box {
         position: absolute;
-        top: 2rem;
-        left: 2rem;
-        right: 2rem;
+        top: 1.5rem;
+        bottom: 1.5rem;
+        left: 1.5rem;
+        right: 0;
+        display: flex;
         justify-content: space-between;
         pointer-events: none;
-        flex-direction: row;
         align-items: flex-start;
+        flex-direction: row;
     }
 
-    section.data, section.weather {
+    section.data {
         width: 280px;
         pointer-events: auto;
         background-color: var(--box-bg);
@@ -137,6 +139,15 @@ footer p {
         box-shadow: 0 4px 12px rgb(0, 0, 0, 0.2);
     }
 
+    section.weather {
+        width: 280px;
+        pointer-events: auto;
+        background-color: var(--box-bg);
+        backdrop-filter: blur(4px);
+        box-shadow: 0 4px 12px rgb(0, 0, 0, 0.2);
+        align-self: flex-end;
+        margin-right: -15rem;
+    }
     .weather h2::after {
         content: "⛅";
         font-size: 1.5rem;
