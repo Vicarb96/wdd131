@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Honduras</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>Honduras</header>
+    
+    <main>
+        <div class=""hero>
+            <picture>
+                <source media="(min-width: 500px)" srcset="images/hero-large.webp">
+                <img src="images/hero-small.webp" alt="Honduras tourism" width="1500" height="750">
+            </picture>
+        </div>
+
+        <div class="content-box">
+
+        </div>
+
+        <div class="content-box">
+            <section class="data">
+                <h2>Data</h2>
+                <ul>
+                    <li><span>Area:</span> 112,777 sq km</li>
+                    <li><span>Population:</span> 11,190,000</li>
+                    <li><span>Capital:</span> Tegucigalpa</li>
+                    <li><span>Languages:</span> Spanish</li>
+                    <li><span>Currency:</span> Lempira (HNL)</li>
+                    <li><span>Time Zone:</span> UTC-6</li>
+                    <li><span>Calling Code:</span> +504</li>
+                    <li><span>Internet TLD:</span> .hn</li>
+                    </ul>
+            </section>
+        
+            <section class="weather">
+                <h2>Weather</h2>
+                <img src="images/weathericon.svg" alt="Temperature" class="weather-sgv" width="48" height="48">
+                <ul>
+                    <li><span>Temperature:</span> <span id="temp">28</span> °C</li>
+                    <li><span>Conditions:</span>Partly Cloudy</li>
+                    <li><span>Wind:</span> <span id="wind">12</span> km/h</li>
+                    <li><span>Wind Chill:</span> <span id="windchill">30</span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span>⛰️ Victor Carbajal ⛰️ Honduras</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
